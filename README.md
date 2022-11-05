@@ -31,7 +31,7 @@ We have used folllowing APIs:
 ## Offline Functionality
 The project has service workers set up in webpack to provide the offline functionality. When the service worker is functioning correctly, you will see the below message when you inspect the browser.
 
-#Testing
+# Testing
 The testing is done using Jest. To run test, enter the command
 
 `$ npm run test. `
