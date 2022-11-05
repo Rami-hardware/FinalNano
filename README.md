@@ -24,8 +24,8 @@ Note: to get the data from the API, you will need to create a .env file which wi
 ## API
 We have used folllowing APIs:
 
-- Dark Sky for getting the weather information
-- OpenCage for getting the latitude and longitude information
+- weatherbit for getting the weather information
+- geonames for getting the city name and countries 
 - Pixabay for getting the images of the place
 
 ## Offline Functionality
