@@ -36,3 +36,6 @@ app.post('/saveData', (req, res) => {
 app.listen(5051, function () {
     console.log('Example app listening on port 5051!')
 })
+app.get('/test', function (req, res) {
+  res.send(mockAPIResponse)
+})

@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                     <span>p</span>lan <span>m</span>y <span>t</span>rip
                     <button id="btn" onclick="Client.getCountyName(),Client.getWeather(),Client.getImg(), Client.Cal()">add trip</button>
                 </p>
-                <div id="hid">
+                <div>
                     <h1 class="myTrip">
                         <span>m</span>y trip to
                         <input type="text" placeholder="enter the counrty" class="trip" id="county" name="name">
@@ -32,25 +33,24 @@
         </div>
         <!--add section-->
         <!--Image section-->
-        <div class="img">
+        <div class="img " id="Image">
             <img src="../media/marbella.png" alt="img" id="img" name="img"/>
-            <button class="lodging">add lodging</button>
+            <button class="lodging" onclick="alert('coming soon')">add lodging</button>
             
-            <button class="packing">add packing list</button>
+            <button class="packing" onclick="alert('coming soon')">add packing list</button>
             
-            <button class="notes">add notes</button>
+            <button class="notes" onclick="alert('coming soon')">add notes</button>
         </div>
         <!--Image section-->
         <!--info section-->
-        <div class="info">
-            <h1>
-                <span>m</span>y trip to: <h2 id="name"><h2 id="Cname" name="Cname"></h2> </h2>
-
-            </h1>
-            <h1>
-                <span>d</span>parting: <h2 id="showDate"></h2>
-            </h1>
-            <h2>fight info</h2>
+        <div class="info " id="Info">
+                <div class="tripTo">
+                    <span>m</span>y trip to: <span id="name"></span> , <span id="Cname" name="Cname"></span>
+                </div>
+            <div class="Dparting">
+                <span>d</span>parting  <span id="showDate"></span>  
+            </div>
+            <h2 class="font"><span>f</span>ight info</h2>
             <p>
                 <span>ord</span> 3:00PM
                 <br />
@@ -61,11 +61,13 @@
                 <span>f</span>ight 44 udcity <span>air</span>
             </p>
             <p>
-            <p>counrty <p id="counter">counter</p> days away</p>
-            <h3>typcial weather for then</h3>
-            <p>the temp is <p name="temp" id="temp"></p></p>
-            <p>the feeling temp <p name="feelTemp" id="feelTemp"></p></p>
-            <p>description: <p name="description" id="description">.</p></p>
+            <div class="conurty" class="font">
+                <span id="counter"></span> days away
+            </div>
+            <h3 class="font"><span>t</span>ypcial weather for then</h3>
+            <p><span>t</span>emperature <p name="temp" id="temp"></p></p>
+            <p><span>f</span>eeling temperature <p name="feelTemp" id="feelTemp"></p></p>
+            <p><span>d</span>escription <p name="description" id="description">.</p></p>
             </p>
         </div>
         <!--info section-->

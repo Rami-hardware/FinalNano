@@ -7,6 +7,8 @@ show the compunt
 //vars
 const btn = document.getElementById('btn');
 
+
+
 const calc = () => {
     let expacted = document.getElementById("date").valueAsDate;
     let nowDate = document.getElementById("date").value; 
